@@ -1,0 +1,77 @@
+html {
+    /* background: linear-gradient(rgb(59, 76, 88), rgb(28, 36, 43));
+    background-attachment: fixed;
+    background-size: 100vw 100vh; */
+    background-color: rgb(34, 44, 53);
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 90vw;
+    max-width: 31em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: rgb(47, 60, 70);
+    background-color: rgb(255, 164, 115);
+    text-align: center;
+    padding: 0 5px 0 5px;
+}
+
+p {
+    color:  white;
+    text-align: justify;
+    line-height: 1.75em;
+    font-size: 0.9em;
+}
+
+li {
+    
+    color: rgb(203, 232, 255);
+    line-height: 1.75em;
+    font-size: 0.9em;
+}
+
+.social-media {
+    display: inline-block;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    filter: invert(80%) sepia(25%) saturate(1300%) hue-rotate(315deg);
+}
+
+.text-highlight {
+    color:  white;
+}
+
+#profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    height: 170px;
+}
+
+#facts {
+    background-color:rgb(50, 81, 102);
+    padding: 0 5px 0 5px;
+}
+
+#mail:link {
+    color: white;
+}
+
+#mail:visited {
+    color: white;
+}
+
+#mail:hover {
+    color: rgb(255, 210, 186);
+}
+
+#mail:active {
+    color: rgb(255, 171, 126);
+}
