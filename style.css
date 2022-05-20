@@ -60,18 +60,18 @@ li {
     padding: 0 5px 0 5px;
 }
 
-#mail:link {
+a:link {
     color: white;
 }
 
-#mail:visited {
+a:visited {
     color: white;
 }
 
-#mail:hover {
+a:hover {
     color: rgb(255, 210, 186);
 }
 
-#mail:active {
+a:active {
     color: rgb(255, 171, 126);
 }
