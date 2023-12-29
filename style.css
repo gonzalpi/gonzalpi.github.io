@@ -18,18 +18,17 @@ h1 {
     color: rgb(47, 60, 70);
     background-color: rgb(255, 164, 115);
     text-align: center;
-    padding: 0 5px 0 5px;
+    padding: 10px;
 }
 
 p {
-    color:  white;
+    color: white;
     text-align: justify;
     line-height: 1.75em;
     font-size: 0.9em;
 }
 
 li {
-    
     color: rgb(203, 232, 255);
     line-height: 1.75em;
     font-size: 0.9em;
@@ -38,35 +37,40 @@ li {
 .social-media {
     display: inline-block;
     margin: 0 5px;
-    width: 40px;
-    height: 40px;
-    filter: invert(80%) sepia(25%) saturate(1300%) hue-rotate(315deg);
 }
 
-.text-highlight {
-    color:  white;
+.icon {
+    width: 20px;
+    height: 20px;
+    filter: invert(80%) sepia(25%) saturate(1300%) hue-rotate(315deg);
 }
 
 #profile {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 170px;
-    height: 170px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
 
-#facts {
-    background-color:rgb(50, 81, 102);
-    padding: 0 5px 0 5px;
+#quote {
+    background-color: rgb(50, 81, 102);
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+a {
+    padding: 10px 0;
 }
 
 a:link {
-    color: white;
+    color: rgb(255, 164, 115);
 }
 
 a:visited {
-    color: white;
+    color: rgb(255, 164, 115);
 }
 
 a:hover {
@@ -75,4 +79,8 @@ a:hover {
 
 a:active {
     color: rgb(255, 171, 126);
+}
+
+td {
+    padding: 0 5px;
 }
